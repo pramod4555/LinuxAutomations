@@ -5,3 +5,9 @@ echo hi todays date is ${date}
 #command substitution  var =$(command)
 #arthimatic substitution var=$((expression))
 
+date=$(date +XF)
+echo its a date
+
+add=$((4+6))
+
+echo add=${add}
